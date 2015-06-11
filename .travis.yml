@@ -18,9 +18,8 @@ before_install:
     - export ANDROID_HOME=$PWD/android-sdk-macosx
     - export ANDROID_SDK=$ANDROID_HOME
     - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
-
-install:
     - cd PhotoTrip
+install:
     - npm install -g titanium alloy tishadow gulp ktorz/ticalabash
     - npm install
 
@@ -30,11 +29,9 @@ install:
     - gulp 'install:android_sdk'
 
 before_script:
-    - cd PhotoTrip
     - gulp 'start:emulator'
     - gulp 'config:tiapp' --test
 
 script:
-    - cd PhotoTrip
     - gulp 'test:calabash'
     - gulp 'test:jasmine'
