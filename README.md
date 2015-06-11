@@ -1,1 +1,1 @@
-# Component boilerstrap by TheSmiths
+# Phototrip App
