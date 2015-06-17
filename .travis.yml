@@ -15,10 +15,11 @@ matrix:
         - env: PLATFORM="android" ANDROID_VERSION="19"
 
 before_install:
-    - export ANDROID_HOME=$PWD/android-sdk-macosx
+    - export ANDROID_HOME=$PWD/PhotoTrip/android-sdk-macosx
     - export ANDROID_SDK=$ANDROID_HOME
     - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
     - cd PhotoTrip
+
 install:
     - npm install -g titanium alloy tishadow gulp ktorz/ticalabash
     - npm install
