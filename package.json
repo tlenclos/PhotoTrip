@@ -1,0 +1,20 @@
+{
+  "name": "alloy-bootstrap",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.0",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-official-tishadow": "^1.2.1",
+    "grunt-shell": "^1.1.2",
+    "grunt-stss": "github:xavierlacot/grunt-stss#develop",
+    "grunt-titanium": "^0.3.1",
+    "matchdep": "^0.3.0",
+    "ti-stealth": "0.0.2",
+    "ticons": "^0.12.4"
+  }
+}

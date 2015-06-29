@@ -1,0 +1,12 @@
+<Alloy>
+	<Window>
+		<View id="modalWrapper" class="modal-wrapper">
+			<View class="wrapper">
+				<Label>Ajouter un contenu</Label>
+				<Widget src="nl.fokkezb.button" id="photo" class="btn" titleid="photo" />
+				<TextArea id="textArea" />
+				<Widget src="nl.fokkezb.button" id="save" class="btn" titleid="save" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

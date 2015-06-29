@@ -1,0 +1,19 @@
+#mapview {
+	userLocation: true;
+	enableZoomControls: true;
+}
+
+.actionbar {
+	left: 10;
+	right: 10;
+	height: size;
+	bottom: 20;
+}
+
+.btn {
+	backgroundColor: white;
+}
+
+#add {
+	right: 0;
+}

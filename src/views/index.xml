@@ -1,0 +1,8 @@
+<Alloy>
+	<Window>
+		<View id="mapview" module="ti.map" />
+		<View class="actionbar">
+			<Widget src="nl.fokkezb.button" id="add" class="btn" titleid="add" />
+		</View>
+	</Window>
+</Alloy>

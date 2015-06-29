@@ -1,0 +1,22 @@
+Window[platform=ios] {
+    backgroundColor: rgba(0,0,0, 0.6);
+}
+Window[platform=android] {
+    backgroundColor: "#99000000";
+}
+
+.wrapper {
+    bubbleParent: false;
+    layout: vertical;
+    bottom: 20;
+    left: 20;
+    right: 20;
+    height: size;
+    backgroundColor: white;
+}
+
+#textArea {
+    width: 80%;
+    borderWidth: 2;
+    borderColor: #bbb;
+}
